@@ -1,0 +1,34 @@
+<div class="row">
+	<div class="col-sm-4">
+		<p class="text-center" id="word">слов</p>
+		<p class="text-center" id="translation">????</p>
+	</div>
+	<div id="photo" class="col-sm-8">
+		<img src="">
+	</div>
+</div>
+<div class="row my-5">
+	<div class="col-sm-4">
+		<button onclick="show_translation()">Показать перевод</button>
+	</div>
+	<div class="col-sm-4">
+		<button onclick="next_word()">Следующие слово</button>
+	</div>
+	<div class="col-sm-2">
+		<button onclick="sound_word('rus')">Озвучить Rus</button>
+	</div>
+	<div class="col-sm-2">
+		<button onclick="sound_word('eng')">Озвучить Eng</button>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-6">
+		<p id="dictionary-name">Текущий словарь</p>
+	</div>
+	<div class="col-sm-2">
+	</div>
+	<div class="col-sm-4">
+		<a onclick="change_language('eng')">Eng</a>
+		<a onclick="change_language('rus')">Rus</a>
+	</div>
+</div>
